@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Pemrograman WEB</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #161616;
+        }
+    </style>
+    <!-- using FontAwesome -->
+    <script src="fontawesome/js/all.min.js"></script>
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.toggle').click(function() {
+                $('toggle').toggleClass('active')
+
+                $('nav ul').toggleClass('active-menu')
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <section id="main">
+        <nav>
+            <!-- logo -->
+            <a href="#" class="logo">LOGO</a>
+            <!-- Menu -->
+            <div class="toggle"></div>
+            <ul class="menu">
+                <li class="active"><a href="#main">Home</a></li>
+                <li class="active"><a href="#about">About</a></li>
+                <li class="active"><a href="#services">Services</a></li>
+                <li class="active"><a href="#portofolio">Portofolio</a></li>
+                <li class="active"><a href="#contact-form">Contact-form</a></li>
+            </ul>
+            <!-- language -->
+            <a href="#" class="lang">LogIn</a>
+        </nav>
+
+        <!-- name -->
+        <div class="name">
+            <!-- hello -->
+            <p>Hello</p>
+            <!-- name -->
+            <h1>I'm
+                <font color="#17d1ac">Maulana</font>Yahya</h1>
+            <!-- details -->
+            <p class="details">Di sini saya akan menjelaskan cara membuat website portofolio</p>
+            <!-- cv button -->
+            <a href="#" class="cv-btn">Download Cv</a>
+        </div>
+        <!-- down arrow -->
+        <div class="black-line"></div>
+        <!-- social -->
+        <div class="social">
+            <a href="#">
+                <ic class="fab fa-facebook-f"></ic>
+            </a>
+            <a href="#">
+                <ic class="fab fa-twitter"></ic>
+            </a>
+            <a href="#">
+                <ic class="fab fa-instagram"></ic>
+            </a>
+            <a href="#">
+                <ic class="fab fa-youtube"></ic>
+            </a>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="about">
+        <!-- text -->
+        <div class="about-text">
+            <h1>About Us</h1>
+            <h2>FreeLancing FrontEnd Developer</h2>
+            <p>Enjoy the ultimate web design editor. Divi is like Photoshop or Sketch for the web. It brings an advanced design interface to wordpress that both beginer and expert will fall in love with. it's incredibly smart, super flexsible, amazingly
+                powerful and visual. </p>
+            <button>View More Details</button>
+        </div>
+        <div>
+            <!-- about model -->
+            <div class="about-model">
+                <img src="gambar/1.png" alt="model" class="model-img">
+            </div>
+        </div>
+    </section>
+    <!-- services -->
+    <section id="services">
+        <!-- heading -->
+        <div class="s-heading">
+            <h1>Services</h1>
+            <p>Here is the some Services which we provide you</p>
+        </div>
+        <!-- services-box-container -->
+        <div class="b-container">
+            <!-- box-1 -->
+            <div class="s-box">
+                <!-- img -->
+                <div class="s-b-img">
+                    <!-- type -->
+                    <div class="s-type">Front-End</div>
+                    <!-- name -->
+                    <img src="gambar/s1.png">
+                </div>
+                <!-- text -->
+                <div class="s-b-text">
+                    <a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or clients.</a>
+                </div>
+            </div>
+            <!-- box-2 -->
+            <div class="s-box">
+                <!-- img -->
+                <div class="s-b-img">
+                    <!-- type -->
+                    <div class="s-type">Back-End</div>
+                    <!-- name -->
+                    <img src="gambar/s2.png">
+                </div>
+                <!-- text -->
+                <div class="s-b-text">
+                    <a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or clients.</a>
+                </div>
+            </div>
+            <!-- box-3 -->
+            <div class="s-box">
+                <!-- img -->
+                <div class="s-b-img">
+                    <!-- type -->
+                    <div class="s-type">SEO</div>
+                    <!-- name -->
+                    <img src="gambar/s3.jpg">
+                </div>
+                <!-- text -->
+                <div class="s-b-text">
+                    <a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or clients.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portofolio -->
+    <section id="portofolio">
+        <!-- heading -->
+        <h1 class="p-heading">Portofolio</h1>
+        <!-- portofolio container -->
+        <div class="p-container">
+            <!-- portofolio-box-1 -->
+            <div class="p-box">
+                <!-- text -->
+                <div class="overlay-text">
+                    <h1>Writing</h1>
+                    <p>Client Project</p>
+                </div>
+                <!-- bg-img -->
+                <img src="gambar/w1.jpg" alt="">
+            </div>
+
+            <!-- portofolio-box-2 -->
+            <div class="p-box">
+                <!-- text -->
+                <div class="overlay-text">
+                    <h1>Ideas</h1>
+                    <p>Client Project</p>
+                </div>
+                <!-- bg-img -->
+                <img src="gambar/w2.jpg" alt="">
+            </div>
+
+            <!-- portofolio-box-3 -->
+            <div class="p-box">
+                <!-- text -->
+                <div class="overlay-text">
+                    <h1>Writing</h1>
+                    <p>Client Project</p>
+                </div>
+                <!-- bg-img -->
+                <img src="gambar/w3.jpg" alt="">
+            </div>
+
+            <!-- portofolio-box-4 -->
+            <div class="p-box">
+                <!-- text -->
+                <div class="overlay-text">
+                    <h1>Writing</h1>
+                    <p>Client Project</p>
+                </div>
+                <!-- bg-img -->
+                <img src="gambar/w4.jpg" alt="">
+            </div>
+
+            <!-- portofolio-box-5 -->
+            <div class="p-box">
+                <!-- text -->
+                <div class="overlay-text">
+                    <h1>Writing</h1>
+                    <p>Client Project</p>
+                </div>
+                <!-- bg-img -->
+                <img src="gambar/w5.jpg" alt="">
+            </div>
+
+            <!-- portofolio-box-6 -->
+            <div class="p-box">
+                <!-- text -->
+                <div class="overlay-text">
+                    <h1>Writing</h1>
+                    <p>Client Project</p>
+                </div>
+                <!-- bg-img -->
+                <img src="gambar/w6.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Contact-btn -->
+    <section id="contact-btn">
+        <!-- heading -->
+        <h1 class="c-b-heading">If you Have Any Project In Your Mind ?</h1>
+        <!-- btn -->
+        <button>Contact Me</button>
+    </section>
+    <!-- contact-form -->
+    <section id="contact-form">
+        <form>
+            <!-- left -->
+            <div class="contact-left">
+                <h1 class="c-l-heading">
+                    <font style="border-bottom: 3px solid #1ED98B;">Writ</font>e us
+                </h1>
+                <!-- name -->
+                <div class="f-name">
+                    <font>Name</font>
+                    <input type="text" placeholder="Full Name" />
+                </div>
+                <!-- email -->
+                <div class="f-email">
+                    <font>Email</font>
+                    <input type="email" placeholder="Example@gmail.com" />
+                </div>
+            </div>
+
+            <!-- right -->
+            <div class="contact-right">
+                <!-- message -->
+                <div class="message">
+                    <font>Message</font>
+                    <textarea name="message" id="" cols="20" rows="5" placeholder="Write Message..."></textarea>
+                </div>
+                <!-- submit-btn -->
+                <button>submit</button>
+            </div>
+        </form>
+    </section>
+
+
+</body>
+
+</html>
